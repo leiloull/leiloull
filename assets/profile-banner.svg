@@ -1,54 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Lei Lou - AI and Computational Biology">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Lei Lou - AI and Computational Biology">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1F33"/>
-      <stop offset="0.55" stop-color="#123A56"/>
-      <stop offset="1" stop-color="#0D6E73"/>
+      <stop offset="0" stop-color="#061427"/>
+      <stop offset="0.52" stop-color="#10384C"/>
+      <stop offset="1" stop-color="#0B6F6B"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#63E6BE" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#4CC9F0" stop-opacity="0.15"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63E6BE"/>
+      <stop offset="1" stop-color="#4CC9F0" stop-opacity="0.25"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9BE7E0" stroke-opacity="0.09" stroke-width="1"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#A8EDE3" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect width="1280" height="320" fill="url(#grid)"/>
-  <circle cx="1080" cy="120" r="180" fill="#4CC9F0" fill-opacity="0.06"/>
-  <circle cx="880" cy="270" r="140" fill="#63E6BE" fill-opacity="0.05"/>
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+  <circle cx="1050" cy="150" r="230" fill="#4CC9F0" fill-opacity="0.05"/>
 
-  <!-- abstract protein / data path -->
-  <g fill="none" stroke="url(#glow)" stroke-width="2.5" stroke-linecap="round">
-    <path d="M 760 245 C 830 245, 840 150, 910 150 S 990 245, 1060 245 S 1140 120, 1220 120" opacity="0.75"/>
-    <path d="M 755 190 C 825 190, 850 265, 925 265 S 1005 165, 1075 165 S 1155 265, 1235 265" opacity="0.35"/>
-  </g>
-  <g fill="#63E6BE">
-    <circle cx="760" cy="245" r="7"/>
-    <circle cx="910" cy="150" r="9"/>
-    <circle cx="1060" cy="245" r="7"/>
-    <circle cx="1220" cy="120" r="9"/>
-  </g>
-  <g fill="#4CC9F0" opacity="0.9">
-    <circle cx="925" cy="265" r="6"/>
-    <circle cx="1075" cy="165" r="6"/>
-    <circle cx="1235" cy="265" r="6"/>
+  <text x="70" y="62" fill="#63E6BE" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">GITHUB PROFILE · 2026</text>
+  <rect x="70" y="78" width="58" height="4" rx="2" fill="url(#edge)"/>
+
+  <text x="66" y="158" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="1">LEI LOU</text>
+  <text x="70" y="202" fill="#A8EDE3" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="500">AI × COMPUTATIONAL BIOLOGY</text>
+  <text x="70" y="242" fill="#CFE9F2" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18">From molecular simulation to enterprise AI — building where computation meets life science.</text>
+
+  <g>
+    <rect x="760" y="44" width="452" height="212" rx="22" fill="#061427" fill-opacity="0.72" stroke="#63E6BE" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle cx="790" cy="72" r="5" fill="#FF6B6B"/>
+    <circle cx="808" cy="72" r="5" fill="#FFD166"/>
+    <circle cx="826" cy="72" r="5" fill="#63E6BE"/>
+    <line x1="760" y1="92" x2="1212" y2="92" stroke="#A8EDE3" stroke-opacity="0.14"/>
+
+    <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17">
+      <text x="790" y="126" fill="#63E6BE">&gt; profile --focus=ai+bio</text>
+      <text x="790" y="158" fill="#E8F4F8">protein.design(AlphaFold3)</text>
+      <text x="790" y="190" fill="#4CC9F0">simulate(GROMACS, 300ns)</text>
+      <text x="790" y="222" fill="#E8F4F8">train(PyTorch, omics_data)</text>
+    </g>
+
+    <g fill="#4CC9F0" opacity="0.8">
+      <circle cx="1150" cy="126" r="4"/>
+      <circle cx="1176" cy="158" r="4"/>
+      <circle cx="1150" cy="190" r="4"/>
+      <circle cx="1176" cy="222" r="4"/>
+    </g>
+    <g stroke="#4CC9F0" stroke-opacity="0.35" stroke-width="1.5">
+      <line x1="1150" y1="126" x2="1176" y2="158"/>
+      <line x1="1176" y1="158" x2="1150" y2="190"/>
+      <line x1="1150" y1="190" x2="1176" y2="222"/>
+    </g>
   </g>
 
-  <rect x="72" y="62" width="70" height="5" rx="2.5" fill="#63E6BE"/>
-  <text x="72" y="132" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="2">LEI LOU</text>
-  <text x="76" y="181" fill="#A8EDE3" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="500">AI × COMPUTATIONAL BIOLOGY</text>
-  <text x="76" y="222" fill="#CFE9F2" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21">Ph.D. · Protein design · Drug discovery · Scientific machine learning</text>
-
-  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="600">
-    <rect x="74" y="252" width="112" height="34" rx="17" fill="#63E6BE" fill-opacity="0.16" stroke="#63E6BE" stroke-opacity="0.55"/>
-    <text x="99" y="274" fill="#C8FFF4">Ph.D.</text>
-    <rect x="198" y="252" width="182" height="34" rx="17" fill="#4CC9F0" fill-opacity="0.14" stroke="#4CC9F0" stroke-opacity="0.5"/>
-    <text x="219" y="274" fill="#D6F4FF">6+ YEARS IN R&amp;D</text>
-    <rect x="392" y="252" width="228" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.3"/>
-    <text x="411" y="274" fill="#E8F4F8">BEIJING / NANJING, CN</text>
-  </g>
-
-  <text x="1208" y="304" text-anchor="end" fill="#CFE9F2" fill-opacity="0.75" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">github.com/leiloull</text>
+  <text x="1208" y="282" text-anchor="end" fill="#CFE9F2" fill-opacity="0.72" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14">github.com/leiloull</text>
 </svg>

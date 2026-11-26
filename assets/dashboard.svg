@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 240" width="1280" height="240" role="img" aria-label="Profile highlights and current roles">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1B2E"/>
+      <stop offset="1" stop-color="#124455"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#A8EDE3" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="240" rx="22" fill="url(#panel)"/>
+  <rect width="1280" height="240" rx="22" fill="url(#dots)"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <g>
+      <rect x="40" y="26" width="282" height="118" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#63E6BE" stroke-opacity="0.25"/>
+      <text x="181" y="84" fill="#FFFFFF" font-size="44" font-weight="700">Ph.D.</text>
+      <text x="181" y="116" fill="#A8EDE3" font-size="15">Computational bioengineering</text>
+    </g>
+    <g>
+      <rect x="350" y="26" width="282" height="118" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#4CC9F0" stroke-opacity="0.25"/>
+      <text x="491" y="84" fill="#FFFFFF" font-size="44" font-weight="700">6+</text>
+      <text x="491" y="116" fill="#A8EDE3" font-size="15">Years across AI &amp; life sciences</text>
+    </g>
+    <g>
+      <rect x="660" y="26" width="282" height="118" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFD166" stroke-opacity="0.25"/>
+      <text x="801" y="84" fill="#FFFFFF" font-size="44" font-weight="700">2</text>
+      <text x="801" y="116" fill="#A8EDE3" font-size="15">Countries worked across</text>
+    </g>
+    <g>
+      <rect x="970" y="26" width="270" height="118" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FF8FAB" stroke-opacity="0.25"/>
+      <text x="1105" y="84" fill="#FFFFFF" font-size="44" font-weight="700">5</text>
+      <text x="1105" y="116" fill="#A8EDE3" font-size="15">Core research domains</text>
+    </g>
+  </g>
+
+  <rect x="40" y="168" width="1200" height="48" rx="14" fill="#63E6BE" fill-opacity="0.10" stroke="#63E6BE" stroke-opacity="0.25"/>
+  <text x="640" y="199" text-anchor="middle" fill="#E8F4F8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="600">CURRENTLY   ·   AI Business Partner @ Sinochem   ·   Senior Scientist &amp; Consultant @ Adisseo</text>
+</svg>
